@@ -4,116 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <style type="text/css">
-   /*--- MEDIA QUERIES ---*/
-   @media screen and (min-width: 800px){
-    body{
-      width: 800px;
-      height: 1020px;
-      /* border: 1px solid black; */
-      margin: 0 auto;
-      position: relative;
-      
-    }
-    main{
-      padding: 14px 28px 24px 28px;
-      /* border: 1px solid black; */
-      height: 800px;
-      box-sizing: border-box;
-    }
-    
-    footer{
-      background-color: rgba(64,64,65,255);
-      height: 100px;
-    }
-    .header-overlay{
-      background-color: rgba(255, 77, 0, 255);
-      color: white;
-      width: 72.5%;
-      position: absolute;
-      height: 92px;
-      box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
-    }
-    .header-overlay > .logo{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      margin-left: 50px;
-    }
-    .header-overlay > h1{
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      margin-left: 150px;
-    }
-    .navbar{
-      background-color: rgba(216, 73, 26, 255);
-      height: 46px;
-    }
-    .decoration-bar{
-      height: 74px;
-    }
-    .orange-decoration{
-      background-color: rgba(216, 73, 26, 255);
-      height: inherit;
-      width: 56.5%;
-    }
-    .white-decoration{
-
-    }
-    .top-text{
-      height: 88px;
-      border-bottom: 2px solid rgba(216, 73, 26, 255);
-      box-sizing: border-box;
-      text-transform: uppercase;
-    }
-    .top-text > span{
-      font-size: 24px;
-      margin: 0;
-      font-weight: bold;
-      font-style: italic;
-    }
-    .orange-text{
-      color: rgba(255, 77, 0, 255);
-    }
-    .columns{
-      height: 674px;
-      padding-top: 10px;
-      box-sizing: border-box;
-    }
-    .left-column{
-      width: 386px;
-      height: 100%;
-      border-right: 1px solid rgba(216, 73, 26, 255);
-      float: left;
-      box-sizing: border-box;
-    }
-    .right-column{
-      width: 358px;
-      height: 100%;
-      padding-left: 23px;
-      border-left: 1px solid rgba(216, 73, 26, 255);
-      float: right;
-      box-sizing: border-box;
-    }
-   }
-
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css" type="text/css">
   <title>iD Commerce + Logistics</title>
 </head>
 <body>
   <div>
     <header class="header-overlay"><img class="logo" src="./id.png"/><h1>Commerce + Logistics</h1></header>
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+      <div>
+        <a href="https://www.twitter.com/idcomlog"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="https://www.linkedin.com/company/id-commerce-and-logistics/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        <a href="https://www.facebook.com/idcomlog/"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="https://www.instagram.com/idcomlog/"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </nav>
     <div class="decoration-bar">
       <div class="orange-decoration"></div>
-      <div class="white-decoration"></div>
+      <img src="./decoration.png" class="line-decoration"/>
     </div>
   </div>
   <main>
     <div class="top-text">
-      <span class="orange-text">CEO Dan Arriola discusses</span>
+      <span class="orange-text extra-letter-spacing">CEO Dan Arriola discusses</span>
       <br />
       <span class="orange-text">retail & ecommerce</span><span> on the</span>
       <br />
@@ -122,14 +37,41 @@
     <div class="columns">
       <div class="left-column">
         <img src="./dan.png" />
+        <div>
+          <span class="orange-text">Dive into pressing</span>
+          <br />
+          <span class="orange-text">questions</span><span> facing retail</span>
+          <br />
+          <span>businesses today like:</span>
+        </div>
+        <ul>
+          <li>What is the most common misconception <br />companies have about 3PL services?</li>
+          <li>What is the biggest benefit for retailers when <br />enlisting 3PL services?</li>
+          <li>What is the biggest challenge facing retailers <br />entering the ecommerce market?</li>
+          <li>and More!</li>
+        </ul>
+        <a href="https://www.idcomlog.com/smarter-retail-fulfillment-strategies-discussion-with-the-entrepreneur-podcast-network/" class="listen-now">LISTEN NOW<img src="./mic.png" class="mic"/></a>
       </div>
       <div class="right-column">
         <img src="./worker.png" />
+        <div>
+          <span>Are you already a full-fledged</span>
+          <br />
+          <span class="orange-text">ecommerce business</span><span> looking for</span>
+          <br />
+          <span>help with your</span><span class="orange-text"> Amazon strategy?</span>
+        </div>
+        <div>
+          <span>iD Commerce + Logistics meets</span>
+          <br />
+          <span class="orange-text">Seller Fulfilled Prime standards!</span>
+        </div>
+        <a href="https://www.idcomlog.com/amazon-services/"><img class="learn-more" src="./learn-more.png"/></a>
       </div>
     </div>
   </main>
   <footer>
-
+    <img src="./contact.png" class="contact"/>
   </footer>
 
 </body>
