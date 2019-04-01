@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css">
+   /*--- MEDIA QUERIES ---*/
+   @media screen and (min-width: 800px){
+    body{
+      width: 800px;
+      height: 1020px;
+      /* border: 1px solid black; */
+      margin: 0 auto;
+      position: relative;
+      
+    }
+    main{
+      padding: 14px 28px 24px 28px;
+      /* border: 1px solid black; */
+      height: 800px;
+      box-sizing: border-box;
+    }
+    
+    footer{
+      background-color: rgba(64,64,65,255);
+      height: 100px;
+    }
+    .header-overlay{
+      background-color: rgba(255, 77, 0, 255);
+      color: white;
+      width: 72.5%;
+      position: absolute;
+      height: 92px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+    }
+    .header-overlay > .logo{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: 50px;
+    }
+    .header-overlay > h1{
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: 150px;
+    }
+    .navbar{
+      background-color: rgba(216, 73, 26, 255);
+      height: 46px;
+    }
+    .decoration-bar{
+      height: 74px;
+    }
+    .orange-decoration{
+      background-color: rgba(216, 73, 26, 255);
+      height: inherit;
+      width: 56.5%;
+    }
+    .white-decoration{
+
+    }
+    .top-text{
+      height: 88px;
+      border-bottom: 2px solid rgba(216, 73, 26, 255);
+      box-sizing: border-box;
+      text-transform: uppercase;
+    }
+    .top-text > span{
+      font-size: 24px;
+      margin: 0;
+      font-weight: bold;
+      font-style: italic;
+    }
+    .orange-text{
+      color: rgba(255, 77, 0, 255);
+    }
+    .columns{
+      height: 674px;
+      padding-top: 10px;
+      box-sizing: border-box;
+    }
+    .left-column{
+      width: 386px;
+      height: 100%;
+      border-right: 1px solid rgba(216, 73, 26, 255);
+      float: left;
+      box-sizing: border-box;
+    }
+    .right-column{
+      width: 358px;
+      height: 100%;
+      padding-left: 23px;
+      border-left: 1px solid rgba(216, 73, 26, 255);
+      float: right;
+      box-sizing: border-box;
+    }
+   }
+
+  </style>
+  <title>iD Commerce + Logistics</title>
+</head>
+<body>
+  <div>
+    <header class="header-overlay"><img class="logo" src="./id.png"/><h1>Commerce + Logistics</h1></header>
+    <nav class="navbar"></nav>
+    <div class="decoration-bar">
+      <div class="orange-decoration"></div>
+      <div class="white-decoration"></div>
+    </div>
+  </div>
+  <main>
+    <div class="top-text">
+      <span class="orange-text">CEO Dan Arriola discusses</span>
+      <br />
+      <span class="orange-text">retail & ecommerce</span><span> on the</span>
+      <br />
+      <span>entrepreneur podcast network.</span>
+    </div>
+    <div class="columns">
+      <div class="left-column">
+        <img src="./dan.png" />
+      </div>
+      <div class="right-column">
+        <img src="./worker.png" />
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+</html>
